@@ -12,7 +12,7 @@ const Team = () => {
   const data = [
     {
       img: bio,
-      name: "Ninja DB",
+      name: "NinjaDB",
       bio: "Team Project Manager. Smart contract solutions expert. Loves Ninja themed homes",
       github: "",
       linkedin: "",
@@ -55,7 +55,7 @@ const Team = () => {
       <div className={styles.teamGallery}>
         {data.map((el, i) => {
           return (
-            <div className={styles.teamCard}>
+            <div className={styles.teamCard} key={i}>
               <div className={styles.imgContainer}>
                 <Image src={el.img} layout="fill"/>
               </div>

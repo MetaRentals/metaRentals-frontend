@@ -10,13 +10,23 @@
   src: url("../asset/font/PPNeueMachina-Regular.otf")
       format("opentype");
 }
+@font-face {
+  font-family: "Mazius Display";
+  src: url("/asset/font/MAZIUSREVIEW20.09-Regular.woff2") format("woff2"),
+    url("/asset/font/MAZIUSREVIEW20.09-Regular.woff") format("woff");
+}
+@font-face {
+  font-family: "Mazius Display Italic";
+  src: url("/asset/font/MAZIUSREVIEW20.09-Extraitalic.woff2") format("woff2"),
+    url("/asset/font/MAZIUSREVIEW20.09-Extraitalic.woff") format("woff");
+}
 
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: 'Noto Sans', sans-serif;
-  background-color: #16161a;
+  background-color: #1d1d24;
 }
 
 a {
